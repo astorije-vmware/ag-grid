@@ -2670,6 +2670,10 @@
       "description": "/** Set to `true` to show the Chart Tool Panels button. Note that this will also remove the 'hamburger' menu option from the Chart Toolbar. Default: `false` */",
       "type": { "returnType": "boolean", "optional": true }
     },
+    "chartToolPanelOverrides": {
+      "description": "/** Chart Tool Panel overrides. */",
+      "type": { "returnType": "ChartToolPanelOverrides", "optional": true }
+    },
     "loadingCellRenderer": {
       "description": "/** Provide your own loading cell renderer to use when data is loading via a DataSource.\n * See [Loading Cell Renderer](https://www.ag-grid.com/javascript-data-grid/component-loading-cell-renderer/) for framework specific implementation details. */",
       "type": { "returnType": "any", "optional": true }
@@ -16436,6 +16440,10 @@
       }
     }
   },
+  "ChartTypeKeys": {},
+  "ChartGroups": {},
+  "PartialChartGroups": {},
+  "ChartToolPanelOverrides": {},
   "ChartType": {},
   "CrossFilterChartType": {},
   "ChartMenuOptions": {},
@@ -25091,6 +25099,10 @@
       "description": "/** Set to `true` to show the Chart Tool Panels button. Note that this will also remove the 'hamburger' menu option from the Chart Toolbar. Default: `false` */",
       "type": { "returnType": "boolean", "optional": true }
     },
+    "chartToolPanelOverrides": {
+      "description": "/** Chart Tool Panel overrides. */",
+      "type": { "returnType": "ChartToolPanelOverrides", "optional": true }
+    },
     "loadingCellRenderer": {
       "description": "/** Provide your own loading cell renderer to use when data is loading via a DataSource.\n * See [Loading Cell Renderer](https://www.ag-grid.com/javascript-data-grid/component-loading-cell-renderer/) for framework specific implementation details. */",
       "type": { "returnType": "any", "optional": true }
@@ -27899,6 +27911,10 @@
     "enableChartToolPanelsButton": {
       "description": "/** Set to `true` to show the Chart Tool Panels button. Note that this will also remove the 'hamburger' menu option from the Chart Toolbar. Default: `false` */",
       "type": { "returnType": "boolean", "optional": true }
+    },
+    "chartToolPanelOverrides": {
+      "description": "/** Chart Tool Panel overrides. */",
+      "type": { "returnType": "ChartToolPanelOverrides", "optional": true }
     },
     "loadingCellRenderer": {
       "description": "/** Provide your own loading cell renderer to use when data is loading via a DataSource.\n * See [Loading Cell Renderer](https://www.ag-grid.com/javascript-data-grid/component-loading-cell-renderer/) for framework specific implementation details. */",
@@ -30718,6 +30734,10 @@
     "enableChartToolPanelsButton": {
       "description": "/** Set to `true` to show the Chart Tool Panels button. Note that this will also remove the 'hamburger' menu option from the Chart Toolbar. Default: `false` */",
       "type": { "returnType": "boolean", "optional": true }
+    },
+    "chartToolPanelOverrides": {
+      "description": "/** Chart Tool Panel overrides. */",
+      "type": { "returnType": "ChartToolPanelOverrides", "optional": true }
     },
     "loadingCellRenderer": {
       "description": "/** Provide your own loading cell renderer to use when data is loading via a DataSource.\n * See [Loading Cell Renderer](https://www.ag-grid.com/javascript-data-grid/component-loading-cell-renderer/) for framework specific implementation details. */",

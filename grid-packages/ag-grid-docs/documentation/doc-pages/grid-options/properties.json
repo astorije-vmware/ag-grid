@@ -393,8 +393,14 @@
         },
         "chartThemeOverrides": {
             "more": {
-                "name": "Overriding Existing Themes",
+                "name": "Chart Groups and Types Customisation",
                 "url": "/integrated-charts-customisation/#overriding-existing-themes"
+            }
+        },
+        "chartToolPanelOverrides": {
+            "more": {
+                "name": "Chart Groups Customisation",
+                "url": "/integrated-charts-toolbar/#chart-groups-customisation"
             }
         }
     },
