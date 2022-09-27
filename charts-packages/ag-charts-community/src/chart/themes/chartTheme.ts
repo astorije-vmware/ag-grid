@@ -455,7 +455,7 @@ export class ChartTheme {
                 labelName: undefined,
                 sectorLabelKey: undefined,
                 sectorLabelName: undefined,
-                label: {
+                calloutLabel: {
                     enabled: true,
                     fontStyle: undefined,
                     fontWeight: undefined,
@@ -474,7 +474,7 @@ export class ChartTheme {
                     color: 'rgb(70, 70, 70)',
                     offset: 0,
                 },
-                callout: {
+                calloutLine: {
                     length: 10,
                     strokeWidth: 2,
                 },
